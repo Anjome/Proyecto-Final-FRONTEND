@@ -1,0 +1,55 @@
+header {
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frase-header {
+    font-family: "Satisfy", cursive;
+    font-style: italic;
+    letter-spacing: 4px;
+    font-size: xx-large;
+    color: white;
+    font-weight: 200;
+}
+
+header img {
+    width: 80px;
+    border-radius: 50px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li {
+    background-color: palevioletred;
+    color: white;
+    font-weight: 600px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header ul li:hover {
+    scale: 1.05;
+}
+
+main {
+    padding: 20px;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-family: "Satisfy", cursive;
+    font-weight: 300;
+
+}
