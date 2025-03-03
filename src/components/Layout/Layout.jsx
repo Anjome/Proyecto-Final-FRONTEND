@@ -9,9 +9,9 @@ const Layout = () => {
                 <p className="frase-header">¡Pinta tu vida de colores!</p>
                 <nav>
                     <ul>
-                        <li>NOSOTROS</li>
-                        <li>COLORES</li>
-                        <li>CONTACTO</li>
+                        <li><a href="/">NOSOTROS</a></li>
+                        <li><a href="/colores">COLORES</a></li>
+                        <li><a href="/contacto">CONTACTO</a></li>
                     </ul>
                 </nav>
             </header >
