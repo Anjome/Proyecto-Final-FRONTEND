@@ -1,6 +1,7 @@
+
 import "./Layout.css"
 
-const Layout = () => {
+const Layout = (props) => {
     return (
         <>
             <header>
@@ -17,11 +18,11 @@ const Layout = () => {
             </header >
 
             <main>
-                <p>PROXIMAMENTE...</p>
+                {props.children}
             </main>
 
             <footer>
-                <p> .Sitio desarrollado por Angelina Josefa Menendez.</p>
+                <p> <em>- Sitio desarrollado por Angelina Josefa Menendez -</em></p>
             </footer>
         </>
     )
