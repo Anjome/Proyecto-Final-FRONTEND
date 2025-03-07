@@ -1,7 +1,9 @@
-import './App.css'
+import "./App.css"
 
-function App() {
-  return (<h1>Hola a mi proyecto</h1>)
+const App = () => {
+    return (
+        <h1>Mi proyecto Frontend</h1>
+    )
 }
 
 export default App

@@ -5,7 +5,7 @@ const Layout = (props) => {
     return (
         <>
             <header>
-                <img src="https://tse3.mm.bing.net/th?id=OIP.3oSANImpLLxEuIZbH33wQAHaHa&pid=Api&P=0&h=180"
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Y0-YiI3P6TWZXvuVKOT13wHaHa&pid=Api&P=0&h=180"
                     alt="Logo" />
                 <p className="frase-header">¡Pinta tu vida de colores!</p>
                 <nav>

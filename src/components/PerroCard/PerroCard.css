@@ -1,0 +1,27 @@
+.tarjeta-perro {
+    border: 1px solid #f5e6f2;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff45d;
+}
+
+.imagen-perro {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -4,9 +4,11 @@ import './index.css'
 import App from '../src/components/App/App'
 import { Layout } from './components/Layout/Layout'
 import { Nosotros } from './pages/Nosotros/Nosotros'
+import { Colores } from './pages/Colores/Colores'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    < Nosotros />
+    <Colores />
   </StrictMode>,
 )
