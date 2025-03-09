@@ -55,3 +55,33 @@ h2 {
 .contacto-form button:hover {
     background-color: rgb(53, 30, 90);
 }
+
+@media (max-width: 480px) {
+    .contacto-form {
+        max-width: 350px;
+        padding: 10px;
+    }
+
+    .contacto-form label {
+        font-size: 0.8rem;
+    }
+
+    .contacto-form button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 880px) {
+    .contacto-form {
+        max-width: 500px;
+        padding: 15px;
+    }
+
+    .contacto-form label {
+        font-size: 0.9rem;
+    }
+
+    .contacto-form button {
+        font-size: 0.9rem;
+    }
+}

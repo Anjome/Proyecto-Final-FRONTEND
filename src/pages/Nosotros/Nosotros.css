@@ -90,3 +90,172 @@ span {
     font-weight: 300;
     margin-top: 10px;
 }
+
+/* Estilos generales */
+.background-section {
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.8jxKBHhvCQfmz6TKhinw_wHaE8&pid=Api&P=0&h=180");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.h1-car-cont {
+    font-size: xx-large;
+    color: rgb(247, 245, 245);
+}
+
+.h1-sec {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.h2-sec {
+    color: violet;
+    font-weight: 800;
+    font-size: larger;
+    text-align: center;
+}
+
+.p-card {
+    font-size: medium;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.car-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.car-colores {
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 300px;
+    height: 400px;
+}
+
+span {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.car-colores:hover {
+    transform: scale(1.05);
+}
+
+.img-car {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.h2-car-color {
+    font-size: larger;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.h3-car-colo {
+    color: antiquewhite;
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+@media (max-width: 880px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        width: 70px;
+    }
+
+    .frase-header {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    header ul li {
+        padding: 8px;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .h1-sec {
+        font-size: 1.5rem;
+    }
+
+    .h2-sec {
+        font-size: 1rem;
+    }
+
+    .p-card {
+        font-size: 0.8rem;
+    }
+
+    .car-colores {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-car {
+        height: 35%;
+    }
+
+    .h1-car-cont {
+        font-size: 1.5rem;
+    }
+
+    .h2-car-color {
+        font-size: 0.9rem;
+    }
+
+    .h3-car-colo {
+        font-size: 0.8rem;
+    }
+
+    .car-cont {
+        gap: 15px;
+    }
+}
