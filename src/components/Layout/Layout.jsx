@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom"
 import "./Layout.css"
 
 const Layout = (props) => {
@@ -10,9 +11,9 @@ const Layout = (props) => {
                 <p className="frase-header">¡Pinta tu vida de colores!</p>
                 <nav>
                     <ul>
-                        <li><a href="/">NOSOTROS</a></li>
-                        <li><a href="/colores">COLORES</a></li>
-                        <li><a href="/contacto">CONTACTO</a></li>
+                        <li><Link to="/">NOSOTROS</Link></li>
+                        <li><Link to="/colores">COLORES</Link></li>
+                        <li><Link to="/contacto">CONTACTO</Link></li>
                     </ul>
                 </nav>
             </header >
