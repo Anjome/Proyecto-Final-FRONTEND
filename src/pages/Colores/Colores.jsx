@@ -1,5 +1,5 @@
 import { Layout } from "../../components/Layout/Layout";
-import { PerroCard } from "../../components/PerroCard/PerroCard"; // Importa el componente de la tarjeta
+import { PerroCard } from "../../components/PerroCard/PerroCard";
 import "../Colores/Colores.css";
 
 const Colores = () => {

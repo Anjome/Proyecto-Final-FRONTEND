@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./PerroCard.css"; // Puedes agregar estilos personalizados aquí
+import "./PerroCard.css";
 
 const PerroCard = () => {
     const [perroImagen, setPerroImagen] = useState("");
